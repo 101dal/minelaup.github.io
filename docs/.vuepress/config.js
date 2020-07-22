@@ -49,6 +49,10 @@ module.exports = {
           { text: 'Github', link: 'https://github.com/MineLaup' }
         ],
       },
+      logo: '/logo.png',
+    '/': {
+      sidebar: 'auto'
+      },
       '/fr/': {
         selectedText: 'Langues',
         label: 'Français',
