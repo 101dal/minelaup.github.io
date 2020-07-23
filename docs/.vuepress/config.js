@@ -50,21 +50,10 @@ module.exports = {
         ],
       },
       logo: '/logo.png',
-    '/': {
-      sidebar: 'auto'
-      },
       '/fr/': {
         selectedText: 'Langues',
         label: 'Français',
-        sidebar: {
-          '/developpement/': [
-            '',
-            'serveur',
-            'client',
-            'documentation'
-          ]
-        },
-        nav: [
+          nav: [
           { text: 'Accueil', link: '/fr/' },
           { text: 'Guide', link: '/fr/guide/' },
           { text: 'Développement', link: '/fr/developpement/' },
